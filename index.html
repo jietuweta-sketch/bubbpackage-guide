@@ -6,100 +6,203 @@
     <title>包装定制指南 — 印个泡泡</title>
     <meta name="description" content="印个泡泡包装定制指南：美妆护肤、3C数码、电子产品、食品饮料、电商零售等全品类包装定制攻略。1个起订，AI报价，48小时交付。">
     <style>
+        :root {
+            --green: #4A7D57;
+            --green-dark: #2D4A35;
+            --gold: #C9A23C;
+            --gold-light: #F5E6C8;
+            --bg: #FBF9F4;
+            --card: #FFFFFF;
+            --text: #2C2C2C;
+            --text-muted: #6B7280;
+            --border: #E8E4DB;
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; color: #333; line-height: 1.8; background: #f9fafb; }
-        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
-        .header { text-align: center; padding: 60px 0 40px; }
-        .header h1 { font-size: 2em; color: #1a1a1a; margin-bottom: 8px; }
-        .header .subtitle { color: #666; font-size: 1.1em; }
-        .breadcrumb { color: #999; font-size: 0.9em; margin-bottom: 20px; }
-        .breadcrumb a { color: #4A7D57; text-decoration: none; }
-        .guide-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin: 24px 0; }
-        .guide-card { background: white; padding: 24px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); text-decoration: none; color: #333; transition: box-shadow 0.2s; display: block; }
-        .guide-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
-        .guide-card h3 { font-size: 1.1em; color: #1a1a1a; margin-bottom: 6px; }
-        .guide-card p { color: #666; font-size: 0.9em; }
-        .cta-box { background: linear-gradient(135deg, #4A7D57, #3a6346); color: white; padding: 30px; border-radius: 12px; text-align: center; margin: 30px 0; }
-        .cta-box h3 { font-size: 1.3em; margin-bottom: 8px; }
-        .cta-box p { opacity: 0.9; margin-bottom: 16px; }
-        .cta-btn { display: inline-block; background: white; color: #4A7D57; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 600; }
-        .footer { text-align: center; padding: 40px 0; color: #999; font-size: 0.9em; }
-        .footer a { color: #4A7D57; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+            color: var(--text); line-height: 1.8; background: var(--bg);
+            -webkit-font-smoothing: antialiased;
+        }
+        .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+        .hero {
+            text-align: center; padding: 100px 24px 80px; position: relative; overflow: hidden;
+        }
+        .hero::before {
+            content: ''; position: absolute; top: -80px; right: -80px;
+            width: 260px; height: 260px; border-radius: 50%;
+            background: radial-gradient(circle, rgba(74,125,87,0.06) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero::after {
+            content: ''; position: absolute; bottom: -60px; left: -60px;
+            width: 200px; height: 200px; border-radius: 50%;
+            background: radial-gradient(circle, rgba(201,162,60,0.05) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        .hero-tag {
+            display: inline-block; background: var(--gold-light); color: var(--gold);
+            padding: 5px 16px; border-radius: 20px; font-size: 0.8em; font-weight: 600;
+            letter-spacing: 0.5px; margin-bottom: 24px; position: relative; z-index: 1;
+        }
+        .hero h1 {
+            font-size: clamp(2em, 5vw, 3em); font-weight: 800; color: #1a1a1a;
+            line-height: 1.25; margin-bottom: 16px; letter-spacing: -1px; position: relative; z-index: 1;
+        }
+        .hero h1 span { color: var(--green); }
+        .hero .subtitle {
+            font-size: 1.15em; color: var(--text-muted); max-width: 500px;
+            margin: 0 auto 0; position: relative; z-index: 1;
+        }
+
+        .guide-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 16px;
+            padding: 0 0 80px;
+        }
+        .guide-card {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 28px; text-decoration: none; color: var(--text);
+            transition: all 0.3s; display: block; position: relative; overflow: hidden;
+        }
+        .guide-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.06);
+            border-color: transparent;
+        }
+        .guide-card::after {
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            background: var(--green); transform: scaleX(0); transition: transform 0.3s;
+        }
+        .guide-card:hover::after { transform: scaleX(1); }
+        .guide-card .idx {
+            font-size: 0.75em; color: var(--gold); font-weight: 700; letter-spacing: 1.5px;
+            text-transform: uppercase; margin-bottom: 8px;
+        }
+        .guide-card h3 { font-size: 1.15em; color: #1a1a1a; margin-bottom: 6px; font-weight: 700; }
+        .guide-card p { color: var(--text-muted); font-size: 0.9em; line-height: 1.5; }
+
+        .cta-banner {
+            background: linear-gradient(135deg, var(--green-dark), var(--green));
+            color: white; border-radius: 20px; padding: 48px; text-align: center;
+            margin: 0 0 60px; position: relative; overflow: hidden;
+        }
+        .cta-banner::before {
+            content: ''; position: absolute; top: -40px; right: -40px;
+            width: 140px; height: 140px; border-radius: 50%;
+            background: rgba(255,255,255,0.06); pointer-events: none;
+        }
+        .cta-banner h3 { font-size: 1.5em; margin-bottom: 10px; position: relative; }
+        .cta-banner p { opacity: 0.85; margin-bottom: 24px; position: relative; }
+        .cta-banner .cta-btn {
+            display: inline-block; background: white; color: var(--green-dark);
+            padding: 14px 36px; border-radius: 50px; text-decoration: none;
+            font-weight: 700; font-size: 1.05em; position: relative;
+            transition: all 0.2s;
+        }
+        .cta-banner .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+
+        .footer {
+            text-align: center; padding: 40px 0; color: var(--text-muted);
+            font-size: 0.85em; border-top: 1px solid var(--border);
+        }
+        .footer a { color: var(--green); text-decoration: none; }
+
+        .nav {
+            display: flex; align-items: center; justify-content: flex-end;
+            max-width: 960px; margin: 0 auto; padding: 16px 24px;
+        }
+        .nav a { color: var(--green); text-decoration: none; font-weight: 500; font-size: 0.9em; }
+
         @media (max-width: 600px) {
-            .header h1 { font-size: 1.5em; }
-            .container { padding: 20px 16px; }
-            .guide-list { grid-template-columns: 1fr; }
+            .hero { padding: 60px 20px 48px; }
+            .hero h1 { font-size: 1.8em; }
+            .guide-grid { grid-template-columns: 1fr; }
+            .cta-banner { padding: 32px 24px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="breadcrumb">
-            <a href="https://bubbpackage.com">首页</a> &rsaquo; 包装定制指南
-        </div>
-        
-        <div class="header">
-            <h1>包装定制指南</h1>
-            <p class="subtitle">18年包装印刷经验，帮你选对包装</p>
-        </div>
 
-        <div class="guide-list">
-            <a href="/beauty-skincare/" class="guide-card">
-                <h3>美妆护肤包装定制</h3>
-                <p>精华瓶、面霜罐、口红管，让包装成为品牌第一印象</p>
-            </a>
-            <a href="/3c-digital/" class="guide-card">
-                <h3>3C数码产品包装定制</h3>
-                <p>电子产品的第一层保护，也是第一眼质感</p>
-            </a>
-            <a href="/electronics-packaging/" class="guide-card">
-                <h3>电子产品包装定制</h3>
-                <p>从结构到材质，专为电子品类设计</p>
-            </a>
-            <a href="/food-beverage/" class="guide-card">
-                <h3>食品饮料包装定制</h3>
-                <p>安全、保鲜、高颜值——食品包装的黄金三角</p>
-            </a>
-            <a href="/ecommerce-retail/" class="guide-card">
-                <h3>电商零售包装一站式定制</h3>
-                <p>从快递盒到开箱体验，让你的包裹自带传播力</p>
-            </a>
-            <a href="/gift-box-custom/" class="guide-card">
-                <h3>礼盒定制全攻略</h3>
-                <p>天地盖、抽屉盒、磁吸盒，打造高端开箱体验</p>
-            </a>
-            <a href="/apparel-packaging/" class="guide-card">
-                <h3>服装包装定制</h3>
-                <p>吊牌、包装袋、快递盒一站式</p>
-            </a>
-            <a href="/health-supplement-packaging/" class="guide-card">
-                <h3>保健品包装定制</h3>
-                <p>药品级安全标准，防潮避光方案</p>
-            </a>
-            <a href="/individual-packaging/" class="guide-card">
-                <h3>个护包装定制</h3>
-                <p>日化洗护、个人护理品包装方案</p>
-            </a>
-            <a href="/custom-box-manufacturer/" class="guide-card">
-                <h3>包装盒定制厂家怎么选</h3>
-                <p>电子行业包装盒型推荐，避坑指南</p>
-            </a>
-            <a href="/carton-customization/" class="guide-card">
-                <h3>纸箱定制</h3>
-                <p>快递箱、周转箱、重型瓦楞纸箱</p>
-            </a>
-        </div>
+<div class="nav">
+    <a href="https://bubbpackage.com">印个泡泡首页</a>
+</div>
 
-        <div class="cta-box">
-            <h3>不知道选哪种？3秒获取精准报价</h3>
-            <p>上传设计稿或描述需求，AI智能报价，1个起订，48小时交付</p>
-            <a href="https://bubbpackage.com/product" class="cta-btn" rel="nofollow">立即获取报价 →</a>
-        </div>
+<div class="hero">
+    <div class="hero-tag">GUIDE</div>
+    <h1>包装定制<span>指南</span></h1>
+    <p class="subtitle">18 年包装印刷经验，覆盖 11 大品类，帮你选对包装</p>
+</div>
 
-        <div class="footer">
-            <p>&copy; 2026 <a href="https://bubbpackage.com">印个泡泡 bubbpackage.com</a> — 深圳市界图科技有限公司</p>
-            <p style="margin-top:8px;">包装退后，产品上前</p>
-        </div>
+<div class="container">
+    <div class="guide-grid">
+        <a href="/beauty-skincare/" class="guide-card">
+            <div class="idx">01</div>
+            <h3>美妆护肤包装定制</h3>
+            <p>精华瓶、面霜罐、口红管——让包装成为品牌第一印象</p>
+        </a>
+        <a href="/3c-digital/" class="guide-card">
+            <div class="idx">02</div>
+            <h3>3C数码产品包装定制</h3>
+            <p>电子产品的第一层保护，也是第一眼质感</p>
+        </a>
+        <a href="/electronics-packaging/" class="guide-card">
+            <div class="idx">03</div>
+            <h3>电子产品包装定制</h3>
+            <p>从结构到材质，专为电子品类设计的包装方案</p>
+        </a>
+        <a href="/food-beverage/" class="guide-card">
+            <div class="idx">04</div>
+            <h3>食品饮料包装定制</h3>
+            <p>安全、保鲜、高颜值——食品包装的黄金三角</p>
+        </a>
+        <a href="/ecommerce-retail/" class="guide-card">
+            <div class="idx">05</div>
+            <h3>电商零售包装一站式定制</h3>
+            <p>从快递盒到开箱体验，让你的包裹自带传播力</p>
+        </a>
+        <a href="/gift-box-custom/" class="guide-card">
+            <div class="idx">06</div>
+            <h3>礼盒定制全攻略</h3>
+            <p>天地盖、抽屉盒、磁吸盒——打造让人心动的开箱体验</p>
+        </a>
+        <a href="/apparel-packaging/" class="guide-card">
+            <div class="idx">07</div>
+            <h3>服装包装定制</h3>
+            <p>从吊牌到礼盒，全场景包装方案覆盖</p>
+        </a>
+        <a href="/health-supplement-packaging/" class="guide-card">
+            <div class="idx">08</div>
+            <h3>保健品包装定制</h3>
+            <p>防伪、密封、合规——药品级安全标准</p>
+        </a>
+        <a href="/individual-packaging/" class="guide-card">
+            <div class="idx">09</div>
+            <h3>独立包装定制方案</h3>
+            <p>电商卖家必读：包装成本与效率优化指南</p>
+        </a>
+        <a href="/custom-box-manufacturer/" class="guide-card">
+            <div class="idx">10</div>
+            <h3>包装盒定制厂家怎么选</h3>
+            <p>18 年行业老兵教你避坑，找到靠谱的包装供应商</p>
+        </a>
+        <a href="/carton-customization/" class="guide-card">
+            <div class="idx">11</div>
+            <h3>纸箱定制指南</h3>
+            <p>从选材到印刷，瓦楞纸箱完整定制方案</p>
+        </a>
     </div>
+
+    <div class="cta-banner">
+        <h3>不知道选哪种包装？</h3>
+        <p>上传设计稿或描述需求，AI 3 秒精准报价</p>
+        <a href="https://bubbpackage.com/product" class="cta-btn" rel="nofollow">立即获取报价 →</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2026 <a href="https://bubbpackage.com">印个泡泡 bubbpackage.com</a> — 深圳市界图科技有限公司</p>
+    <p style="margin-top:4px;">包装退后，产品上前</p>
+</div>
+
 </body>
 </html>
