@@ -9,18 +9,18 @@ KEY_PATH = "/home/wenjun/bubbpackage-guide/key.json"
 SCOPES = ["https://www.googleapis.com/auth/indexing"]
 
 URLS = [
-    "https://guide.bubbpackage.com/",
-    "https://guide.bubbpackage.com/beauty-skincare/",
-    "https://guide.bubbpackage.com/3c-digital/",
-    "https://guide.bubbpackage.com/electronics-packaging/",
-    "https://guide.bubbpackage.com/food-beverage/",
-    "https://guide.bubbpackage.com/ecommerce-retail/",
-    "https://guide.bubbpackage.com/gift-box-custom/",
-    "https://guide.bubbpackage.com/apparel-packaging/",
-    "https://guide.bubbpackage.com/health-supplement-packaging/",
-    "https://guide.bubbpackage.com/individual-packaging/",
-    "https://guide.bubbpackage.com/custom-box-manufacturer/",
-    "https://guide.bubbpackage.com/carton-customization/",
+    "https://bubbpackage.com/guide/",
+    "https://bubbpackage.com/guide/beauty-skincare/",
+    "https://bubbpackage.com/guide/3c-digital/",
+    "https://bubbpackage.com/guide/electronics-packaging/",
+    "https://bubbpackage.com/guide/food-beverage/",
+    "https://bubbpackage.com/guide/ecommerce-retail/",
+    "https://bubbpackage.com/guide/gift-box-custom/",
+    "https://bubbpackage.com/guide/apparel-packaging/",
+    "https://bubbpackage.com/guide/health-supplement-packaging/",
+    "https://bubbpackage.com/guide/individual-packaging/",
+    "https://bubbpackage.com/guide/custom-box-manufacturer/",
+    "https://bubbpackage.com/guide/carton-customization/",
 ]
 
 def submit_urls():
