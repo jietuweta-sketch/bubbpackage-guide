@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url><loc>https://guide.bubbpackage.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-    <url><loc>https://guide.bubbpackage.com/beauty-skincare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/food-beverage/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/tea-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/health-supplement-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/electronics-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/apparel-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/gift-box-custom/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/ecommerce-retail/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/individual-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/3c-digital/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://guide.bubbpackage.com/carton-customization/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+    <url><loc>https://bubbpackage.com/guide/beauty-skincare/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/food-beverage/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/tea-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/health-supplement-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/electronics-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/apparel-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/gift-box-custom/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/ecommerce-retail/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/individual-packaging/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/3c-digital/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <url><loc>https://bubbpackage.com/guide/carton-customization/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
