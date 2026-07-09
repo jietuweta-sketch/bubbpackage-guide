@@ -24,8 +24,7 @@ print(f"Recent commits found:\n{result.stdout.strip()}")
 # Run submission via Windows (for proxy access)
 # Use cmd.exe /c to run the bat non-interactively
 subprocess.run(
-    ["cmd.exe", "/c", BAT],
-    cwd=r"C:\Users\chaox\bubbpackage-seo",
+    ["/mnt/c/Windows/System32/cmd.exe", "/c", BAT],
     timeout=120
 )
 print("Submission triggered.")
