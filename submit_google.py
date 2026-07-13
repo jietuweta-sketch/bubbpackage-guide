@@ -18,6 +18,7 @@ urls = [
     "https://guide.bubbpackage.com/individual-packaging/",
     "https://guide.bubbpackage.com/3c-digital/",
     "https://guide.bubbpackage.com/carton-customization/",
+    "https://guide.bubbpackage.com/xiaopiliang-baozhuang-dingzhi/",
 ]
 
 # Read service account key
