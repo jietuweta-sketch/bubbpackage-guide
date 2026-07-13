@@ -10,3 +10,8 @@
 .xp-cta{font-size:15px;color:var(--muted)}
 .xp-cta a{color:var(--green);font-weight:700;text-decoration:underline}
 @media(max-width:768px){.xp-grid{grid-template-columns:1fr 1fr}.xiaopiliang-intro{padding:48px 24px}}
+
+.guide-content .section p{font-size:15px;color:var(--muted);line-height:1.85;margin-bottom:16px}
+.guide-content .section p strong{color:var(--ink)}
+.guide-content .section{padding:20px 0 40px}
+@media(max-width:768px){.guide-content .section p{font-size:14px}}
