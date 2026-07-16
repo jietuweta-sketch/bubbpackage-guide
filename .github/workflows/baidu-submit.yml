@@ -1,0 +1,35 @@
+name: Submit updated pages to Baidu
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "**/index.html"
+      - "sitemap.xml"
+      - "robots.txt"
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Submit guide URLs
+        env:
+          BAIDU_GUIDE_TOKEN: ${{ secrets.BAIDU_GUIDE_TOKEN }}
+        run: |
+          if [ -z "$BAIDU_GUIDE_TOKEN" ]; then
+            echo "BAIDU_GUIDE_TOKEN is not configured; skipping."
+            exit 0
+          fi
+          bash baidu_push_guide.sh
+      - name: Submit SaaS platform URLs
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          BAIDU_MAIN_TOKEN: ${{ secrets.BAIDU_MAIN_TOKEN }}
+        run: |
+          if [ -z "$BAIDU_MAIN_TOKEN" ]; then
+            echo "BAIDU_MAIN_TOKEN is not configured; skipping."
+            exit 0
+          fi
+          bash baidu_push_main.sh
