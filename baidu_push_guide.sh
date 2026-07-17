@@ -1,7 +1,13 @@
 #!/bin/bash
-# 百度站长 API 推送 — guide.bubbpackage.com 全部落地页
-# token: ix2iHNHIeVj71uvK
-# 用法: bash baidu_push_guide.sh
+# 百度搜索资源平台 API 推送 — guide.bubbpackage.com 全部落地页
+# 用法: BAIDU_GUIDE_TOKEN="平台生成的新 token" bash baidu_push_guide.sh
+
+set -euo pipefail
+
+if [ -z "${BAIDU_GUIDE_TOKEN:-}" ]; then
+  echo "缺少 BAIDU_GUIDE_TOKEN。请先在百度搜索资源平台重新生成 token，并通过环境变量提供。" >&2
+  exit 1
+fi
 
 URLS=(
   "https://guide.bubbpackage.com/"
@@ -22,6 +28,6 @@ URLS=(
 BODY=$(printf "%s\n" "${URLS[@]}")
 
 curl -s -w "\nHTTP:%{http_code}" -X POST \
-  "http://data.zz.baidu.com/urls?site=guide.bubbpackage.com&token=ix2iHNHIeVj71uvK" \
+  "https://data.zz.baidu.com/urls?site=guide.bubbpackage.com&token=${BAIDU_GUIDE_TOKEN}" \
   -H "Content-Type: text/plain" \
   --data-binary "$BODY"
