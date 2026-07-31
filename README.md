@@ -15,6 +15,7 @@
 
 - [美妆护肤包装](https://guide.bubbpackage.com/beauty-skincare/)
 - [食品饮料包装](https://guide.bubbpackage.com/food-beverage/)
+- [咖啡豆包装定制指南](https://guide.bubbpackage.com/coffee-bean-packaging/)
 - [茶叶包装](https://guide.bubbpackage.com/tea-packaging/)
 - [保健品包装](https://guide.bubbpackage.com/health-supplement-packaging/)
 - [电子产品包装](https://guide.bubbpackage.com/electronics-packaging/)

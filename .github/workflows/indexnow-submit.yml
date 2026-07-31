@@ -1,0 +1,23 @@
+name: Notify IndexNow
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "**/index.html"
+      - "assets/**"
+      - "sitemap.xml"
+      - "robots.txt"
+      - "indexnow_submit.sh"
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Notify IndexNow participants
+        run: bash indexnow_submit.sh
