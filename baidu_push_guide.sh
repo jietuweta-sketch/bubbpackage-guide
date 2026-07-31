@@ -15,6 +15,7 @@ URLS=(
   "https://guide.bubbpackage.com/3c-digital/"
   "https://guide.bubbpackage.com/electronics-packaging/"
   "https://guide.bubbpackage.com/food-beverage/"
+  "https://guide.bubbpackage.com/coffee-bean-packaging/"
   "https://guide.bubbpackage.com/ecommerce-retail/"
   "https://guide.bubbpackage.com/tea-packaging/"
   "https://guide.bubbpackage.com/apparel-packaging/"
