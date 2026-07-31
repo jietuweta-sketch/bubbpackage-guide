@@ -1,438 +1,221 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-  <meta name="baidu-site-verification" content="codeva-01z4zDNBoK" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>电子产品包装定制方案 — 印个泡泡</title>
-    <meta name="description" content="电子产品包装定制指南：根据产品重量、易损部位和配件数量选择盒型、内托与缓冲结构，兼顾运输测试、陈列和开箱体验。">
-    <meta name="keywords" content="电子产品包装定制方案,包装定制,包装盒,印个泡泡,小批量包装">
-    <link rel="canonical" href="https://guide.bubbpackage.com/electronics-packaging/">
-    <meta property="og:title" content="电子产品包装定制方案 — 印个泡泡">
-    <meta property="og:description" content="根据电子产品重量、易损部位和配件数量选择盒型、内托与缓冲结构。">
-    <meta property="og:url" content="https://guide.bubbpackage.com/electronics-packaging/">
-    <meta property="og:type" content="article">
-
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "印个泡泡", "alternateName": "bubbpackage", "url": "https://bubbpackage.com", "description": "小批量包装定制平台。1个起订，3秒AI报价，48小时交付，100%可回收材质。覆盖美妆、3C、食品、茶叶等11大行业。", "foundingDate": "2024", "founder": {"@type": "Person", "name": "许超"}, "address": {"@type": "PostalAddress", "addressLocality": "深圳", "addressCountry": "CN"}, "sameAs": ["https://bubbpackage.com", "https://guide.bubbpackage.com"]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "小批量包装定制指南", "item": "https://guide.bubbpackage.com/"}, {"@type": "ListItem", "position": 2, "name": "电子产品包装定制方案"}]}</script>
-    <style>
-        :root {
-            --green: #4A7D57;
-            --green-dark: #2D4A35;
-            --gold: #C9A23C;
-            --gold-light: #F5E6C8;
-            --bg: #FBF9F4;
-            --card: #FFFFFF;
-            --text: #2C2C2C;
-            --text-muted: #6B7280;
-            --border: #E8E4DB;
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
-            color: var(--text);
-            line-height: 1.8;
-            background: var(--bg);
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* ── Navigation bar ── */
-        .nav {
-            display: flex; align-items: center; justify-content: space-between;
-            max-width: 860px; margin: 0 auto; padding: 16px 24px;
-            font-size: 0.9em;
-        }
-        .nav a { color: var(--green); text-decoration: none; font-weight: 500; }
-        .nav a:hover { color: var(--green-dark); }
-
-        /* ── Hero ── */
-        .hero {
-            text-align: center; padding: 80px 24px 64px; position: relative; overflow: hidden;
-        }
-        .hero::before {
-            content: ''; position: absolute; top: -60px; right: -60px;
-            width: 200px; height: 200px; border-radius: 50%;
-            background: radial-gradient(circle, rgba(74,125,87,0.06) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        .hero::after {
-            content: ''; position: absolute; bottom: -40px; left: -40px;
-            width: 160px; height: 160px; border-radius: 50%;
-            background: radial-gradient(circle, rgba(201,162,60,0.05) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        .hero-tag {
-            display: inline-block; background: var(--gold-light); color: var(--gold);
-            padding: 4px 14px; border-radius: 20px; font-size: 0.8em; font-weight: 600;
-            letter-spacing: 0.5px; margin-bottom: 20px;
-        }
-        .hero h1 {
-            font-size: clamp(1.8em, 4vw, 2.6em); font-weight: 800; color: #1a1a1a;
-            line-height: 1.3; margin-bottom: 16px; letter-spacing: -0.5px; position: relative; z-index: 1;
-        }
-        .hero h1 span { color: var(--green); }
-        .hero .subtitle {
-            font-size: 1.15em; color: var(--text-muted); max-width: 500px;
-            margin: 0 auto 32px; position: relative; z-index: 1;
-        }
-
-        /* ── Primary CTA ── */
-        .cta-primary {
-            display: inline-flex; align-items: center; gap: 8px;
-            background: var(--green); color: white; padding: 14px 36px;
-            border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1.05em;
-            transition: all 0.25s; position: relative; z-index: 1;
-            box-shadow: 0 4px 16px rgba(74,125,87,0.25);
-        }
-        .cta-primary:hover {
-            background: var(--green-dark); transform: translateY(-1px);
-            box-shadow: 0 6px 24px rgba(74,125,87,0.35);
-        }
-        .cta-secondary {
-            display: inline-block; color: var(--green); text-decoration: none;
-            font-weight: 500; font-size: 0.95em; margin-left: 20px; position: relative; z-index: 1;
-            border-bottom: 1px dashed var(--green);
-        }
-        .cta-secondary:hover { color: var(--green-dark); }
-
-        /* ── Section layout ── */
-        .container { max-width: 860px; margin: 0 auto; padding: 0 24px; }
-        .section { padding: 60px 0; }
-        .section-label {
-            font-size: 0.75em; text-transform: uppercase; letter-spacing: 2px;
-            color: var(--gold); font-weight: 600; margin-bottom: 8px;
-        }
-        .section-title {
-            font-size: 1.7em; font-weight: 700; color: #1a1a1a;
-            margin-bottom: 40px; line-height: 1.3;
-        }
-
-        /* ── Advantage cards ── */
-        .advantage-grid {
-            display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
-        }
-        .adv-card {
-            background: var(--card); border-radius: 16px; padding: 28px 20px 24px;
-            text-align: center; transition: all 0.3s;
-            border: 1px solid var(--border); position: relative; overflow: hidden;
-        }
-        .adv-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 32px rgba(0,0,0,0.06);
-            border-color: transparent;
-        }
-        .adv-card::after {
-            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-            background: var(--green); transform: scaleX(0); transition: transform 0.3s;
-        }
-        .adv-card:hover::after { transform: scaleX(1); }
-        .adv-icon {
-            width: 48px; height: 48px; margin: 0 auto 14px; display: flex;
-            align-items: center; justify-content: center; border-radius: 12px;
-            background: #F0F4F1;
-        }
-        .adv-card .num {
-            font-size: 2em; font-weight: 800; color: var(--green); line-height: 1.2;
-        }
-        .adv-card .label { color: var(--text-muted); font-size: 0.9em; margin-top: 4px; }
-
-        /* ── Features / Box types ── */
-        .box-grid {
-            display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px;
-        }
-        .box-pill {
-            display: flex; align-items: center; gap: 8px;
-            background: var(--card); border: 1px solid var(--border);
-            padding: 14px 18px; border-radius: 12px; font-weight: 500; font-size: 0.95em;
-            color: #333; transition: all 0.2s;
-        }
-        .box-pill:hover {
-            border-color: var(--green); background: #F8FAF8;
-        }
-        .box-pill .dot {
-            width: 8px; height: 8px; border-radius: 50%; background: var(--green);
-            flex-shrink: 0;
-        }
-
-        /* ── Process timeline ── */
-        .process-list {
-            display: flex; flex-direction: column; gap: 0; position: relative;
-        }
-        .process-step {
-            display: flex; gap: 24px; padding: 24px 0; position: relative;
-        }
-        .process-step:not(:last-child)::after {
-            content: ''; position: absolute; left: 23px; top: 72px; bottom: 0;
-            width: 2px; background: var(--border);
-        }
-        .step-num {
-            width: 48px; height: 48px; border-radius: 12px;
-            background: var(--green); color: white; display: flex;
-            align-items: center; justify-content: center;
-            font-size: 1.2em; font-weight: 700; flex-shrink: 0; z-index: 1;
-        }
-        .step-content h3 { font-size: 1.1em; margin-bottom: 4px; color: #1a1a1a; }
-        .step-content p { color: var(--text-muted); font-size: 0.95em; }
-
-        /* ── Material / Promise ── */
-        .promise-grid {
-            display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;
-        }
-        .promise-card {
-            background: var(--card); border: 1px solid var(--border);
-            border-radius: 14px; padding: 24px; transition: all 0.2s;
-        }
-        .promise-card:hover { border-color: var(--green); }
-        .promise-card h4 { font-size: 1em; color: #1a1a1a; margin-bottom: 6px; }
-        .promise-card p { color: var(--text-muted); font-size: 0.9em; line-height: 1.6; }
-
-        /* ── FAQ ── */
-        .faq-list { display: flex; flex-direction: column; gap: 8px; }
-        .faq-item {
-            background: var(--card); border: 1px solid var(--border);
-            border-radius: 12px; overflow: hidden;
-        }
-        .faq-q {
-            width: 100%; text-align: left; background: none; border: none;
-            padding: 18px 24px; font-size: 1em; font-weight: 600; color: #1a1a1a;
-            cursor: pointer; display: flex; justify-content: space-between; align-items: center;
-            font-family: inherit;
-        }
-        .faq-q::after {
-            content: '+'; font-size: 1.3em; color: var(--green); font-weight: 400;
-            transition: transform 0.3s;
-        }
-        .faq-item.open .faq-q::after { transform: rotate(45deg); }
-        .faq-a {
-            max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;
-        }
-        .faq-item.open .faq-a {
-            max-height: 200px; padding: 0 24px 18px;
-        }
-        .faq-a p { color: var(--text-muted); font-size: 0.95em; }
-
-        /* ── Final CTA ── */
-        .cta-banner {
-            background: linear-gradient(135deg, var(--green-dark), var(--green));
-            color: white; border-radius: 20px; padding: 48px; text-align: center; margin-top: 20px;
-            position: relative; overflow: hidden;
-        }
-        .cta-banner::before {
-            content: ''; position: absolute; top: -40px; right: -40px;
-            width: 140px; height: 140px; border-radius: 50%;
-            background: rgba(255,255,255,0.06); pointer-events: none;
-        }
-        .cta-banner h3 { font-size: 1.5em; margin-bottom: 10px; position: relative; }
-        .cta-banner p { opacity: 0.85; margin-bottom: 24px; position: relative; }
-        .cta-banner .cta-btn {
-            display: inline-block; background: white; color: var(--green-dark);
-            padding: 14px 36px; border-radius: 50px; text-decoration: none;
-            font-weight: 700; font-size: 1.05em; position: relative;
-            transition: all 0.2s;
-        }
-        .cta-banner .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
-
-        /* ── Footer ── */
-        .footer {
-            text-align: center; padding: 40px 0; color: var(--text-muted);
-            font-size: 0.85em; border-top: 1px solid var(--border); margin-top: 40px;
-        }
-        .footer a { color: var(--green); text-decoration: none; }
-
-        /* ── Responsive ── */
-        @media (max-width: 768px) {
-            .hero { padding: 48px 20px 40px; }
-            .hero h1 { font-size: 1.6em; }
-            .advantage-grid { grid-template-columns: repeat(2, 1fr); }
-            .promise-grid { grid-template-columns: 1fr; }
-            .cta-banner { padding: 32px 24px; }
-            .process-step { gap: 16px; }
-            .step-num { width: 40px; height: 40px; font-size: 1em; }
-            .cta-secondary { margin-left: 12px; }
-        }
-        @media (max-width: 480px) {
-            .advantage-grid { grid-template-columns: 1fr; }
-            .box-grid { grid-template-columns: repeat(2, 1fr); }
-        }
-    </style>
-
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "真的 1 个也能做吗？价格会不会很贵？", "acceptedAnswer": {"@type": "Answer", "text": "可以。数码印刷无需制版，从 1 个到 10000 个按需生产。小批量单价确实比大批量略高，但比传统方案（开版费 + 500 起订）的总成本低得多。打样试错、小批量测款尤其划算。"}}, {"@type": "Question", "name": "能印自己的 LOGO 吗？支持哪些工艺？", "acceptedAnswer": {"@type": "Answer", "text": "完全支持。CMYK 四色、专色印刷、烫金/烫银、UV 上光、激凸/压凹、覆膜等工艺全覆盖。数码印刷让定制毫无门槛。"}}, {"@type": "Question", "name": "从下单到收货要多久？", "acceptedAnswer": {"@type": "Answer", "text": "常备基材订单 48 小时发货，复杂工艺 3-5 天。深圳发货次日可达珠三角，其他地区 2-3 天。"}}, {"@type": "Question", "name": "不满意怎么办？能退换吗？", "acceptedAnswer": {"@type": "Answer", "text": "质量问题免费重做。尺寸或设计调整，沟通确认后免费修改打样。提供京东式购物体验——7 天无理由退换。18 年老兵做事，以信誉为本。"}}]}</script>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="codeva-01z4zDNBoK">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>电子产品包装定制指南｜防护、分区与标签信息｜印个泡泡</title>
+  <meta name="description" content="电子元件、仪器和小型设备包装如何兼顾防护、配件分区和追溯标签？本指南介绍瓦楞结构、缓冲材料、静电风险与运输验证。">
+  <link rel="canonical" href="https://guide.bubbpackage.com/electronics-packaging/">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/article.css">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="印个泡泡包装定制指南">
+  <meta property="og:title" content="电子产品包装定制指南">
+  <meta property="og:description" content="电子元件、仪器和小型设备包装如何兼顾防护、配件分区和追溯标签？本指南介绍瓦楞结构、缓冲材料、静电风险与运输验证。">
+  <meta property="og:url" content="https://guide.bubbpackage.com/electronics-packaging/">
+  <meta property="og:image" content="https://guide.bubbpackage.com/assets/electronics.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "电子产品包装定制指南",
+  "description": "电子元件、仪器和小型设备包装如何兼顾防护、配件分区和追溯标签？本指南介绍瓦楞结构、缓冲材料、静电风险与运输验证。",
+  "image": "https://guide.bubbpackage.com/assets/electronics.webp",
+  "datePublished": "2026-07-31",
+  "dateModified": "2026-07-31",
+  "inLanguage": "zh-CN",
+  "mainEntityOfPage": "https://guide.bubbpackage.com/electronics-packaging/",
+  "author": {
+    "@type": "Organization",
+    "name": "印个泡泡",
+    "url": "https://bubbpackage.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "印个泡泡",
+    "url": "https://bubbpackage.com/"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "包装定制指南",
+      "item": "https://guide.bubbpackage.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "电子产品包装定制指南"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "普通纸盒能代替防静电包装吗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "不能直接等同。纸盒可提供外部保护，但静电敏感器件需要根据产品要求使用经过确认的防静电或屏蔽材料。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "运输箱应该标多少警示信息？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "只保留与实际搬运和风险有关的信息，例如方向、易碎、防潮或静电警示；过多无关图标会降低真正警示的可见性。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "怎样让多配件设备更容易盘点？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "为每个配件设置固定仓位，并在装配图或清单中对应编号；必要时让空位一眼可见，便于出货和退货检查。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "什么时候需要做重复运输测试？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "设备可能返修、租赁、展会往返或企业内部周转时，应验证包装在多次开合和运输后的强度与固定效果。"
+      }
+    }
+  ]
+}
+  </script>
 </head>
 <body>
-
-<!-- Nav -->
-<div class="nav">
-    <a href="/">&larr; 包装定制指南</a>
-    <a href="https://bubbpackage.com" style="font-size:0.85em;">印个泡泡首页</a>
-</div>
-
-<!-- Hero -->
-<div class="hero">
-    <div class="hero-tag">包装定制指南</div>
-    <h1>电子产品包装定制方案</h1>
-    <p class="subtitle">从结构到材质，专为电子品类设计</p>
-    <a href="https://bubbpackage.com/product" class="cta-primary">
-        获取报价 →
+  <header class="site-header compact-header">
+    <a class="brand" href="/" aria-label="返回包装定制指南首页">
+      <img class="logo-mark" src="../assets/logo.png" alt="印个泡泡">
+      <span><strong>印个泡泡</strong><small>包装定制指南</small></span>
     </a>
-    <a href="#process" class="cta-secondary">了解定制流程</a>
-</div>
+    <a class="back-home" href="https://bubbpackage.com/product">在线选择包装 <span>→</span></a>
+  </header>
 
-<!-- Article content -->
-<article class="guide-content">
-  <div class="container">
-    <div class="section">
-      <p>电子产品包装面临独特的挑战：既要防静电、防震、防潮，又要让消费者在开箱时感受到品牌的专业与用心。从蓝牙音箱到智能家居设备，从无人机到电子烟，每一类电子产品对包装的结构保护要求都不同。<strong>小批量包装定制</strong>让硬件创业团队可以在产品迭代阶段就拥有媲美大厂的包装体验。</p>
-      <p>电子产品的包装通常在瓦楞外箱内搭配定制内衬——纸浆模塑、EVA海绵、珍珠棉或瓦楞格栅，确保产品在各种运输场景下安全无损。印个泡泡的数码印刷产线支持<strong>小批量包装定制</strong>，无需开模费、无需制版费，1个起订。从产品打样到小批量试产再到规模化量产，包装方案可以无缝衔接。</p>
-      <p>对于跨境电商卖家，电子产品包装还需要符合亚马逊FBA的包装要求。印个泡泡18年包装行业经验，对主流平台的包装规范了然于胸。<strong>小批量包装定制</strong>，48小时发货，让你的产品更快上架。</p>
-    </div>
-  </div>
-</article>
-
-<!-- Why us -->
-<div class="container">
-    <div class="section">
-        <div class="section-label">Why BubbPackage</div>
-        <div class="section-title">为什么 10,000+ 品牌选择印个泡泡</div>
-        <div class="advantage-grid">
-            <div class="adv-card">
-                <div class="adv-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4A7D57" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-                </div>
-                <div class="num">1个</div>
-                <div class="label">起订量</div>
-            </div>
-            <div class="adv-card">
-                <div class="adv-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4A7D57" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                </div>
-                <div class="num">3秒</div>
-                <div class="label">AI报价</div>
-            </div>
-            <div class="adv-card">
-                <div class="adv-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4A7D57" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-                </div>
-                <div class="num">48h</div>
-                <div class="label">极速交付</div>
-            </div>
-            <div class="adv-card">
-                <div class="adv-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4A7D57" stroke-width="2"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/><path d="M7 10c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/><path d="M17 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg>
-                </div>
-                <div class="num">100%</div>
-                <div class="label">可回收材质</div>
-            </div>
+  <main>
+    <section class="article-hero">
+      <div class="article-hero__copy">
+        <nav class="crumbs" aria-label="面包屑"><a href="/">包装定制指南</a> / 电子产品包装定制指南</nav>
+        <p class="eyebrow">ELECTRONICS PACKAGING GUIDE</p>
+        <h1>电子产品包装定制指南</h1>
+        <p class="lead">针对元件、仪器和小型设备，从冲击、静电与堆码风险出发，设计可追溯、便装配的包装。</p>
+        <div class="article-meta">
+          <span>适合元件、仪器与小型设备</span>
+          <span>更新于 2026-07-31</span>
         </div>
-        <p style="text-align:center; color:var(--text-muted); margin-top:32px; font-size:0.95em;">
-            传统包装厂起订量 500-1000 个，我们<span style="color:var(--green);font-weight:600;">1个起订</span>。数码印刷 + 柔性产线，无数量门槛，成本比传统方案降低约 20%。
-        </p>
-    </div>
+      </div>
+      <div class="article-hero__image">
+        <img src="../assets/electronics.webp" width="1600" height="1067" alt="电子元件、小型设备和配件的工业感包装设计组合">
+      </div>
+    </section>
 
-    <!-- Box types -->
-    <div class="section">
-        <div class="section-label">Box Types</div>
-        <div class="section-title">电子产品行业常用包装盒型</div>
-        <div class="box-grid">
-            <div class="box-pill"><span class="dot"></span>瓦楞纸箱</div>
-            <div class="box-pill"><span class="dot"></span>卡纸-飞机盒</div>
-            <div class="box-pill"><span class="dot"></span>卡纸-天地盖</div>
-            <div class="box-pill"><span class="dot"></span>防静电材质</div>
-            <div class="box-pill"><span class="dot"></span>定制内衬</div>
+    <div class="article-layout">
+      <article class="article-body">
+        <h2 id="first">先区分零售展示和工业运输</h2>
+        <p>电子产品的包装需求跨度很大：面向消费者的零售盒强调信息与开箱，面向企业的元件或仪器包装更关注静电、湿度、批次和重复搬运。先明确运输链路和失效风险，才能选择正确结构。</p>
+        <div class="callout"><strong>实用判断：</strong>对静电、湿度或冲击敏感的产品，应由产品与质量人员明确防护等级；普通纸盒的“包住”不等于满足专业防护要求。</div>
+
+        <h2 id="options">按流通场景选择包装层级</h2>
+        <table class="decision-table">
+          <thead><tr><th>方案</th><th>适合场景</th><th>选择重点</th></tr></thead>
+          <tbody>
+            <tr><td><strong>单品盒＋专业防护袋</strong></td><td>元件、模块、板卡</td><td>纸盒负责外部保护，内层材料按静电与湿度要求评估</td></tr>
+            <tr><td><strong>瓦楞箱＋分隔内衬</strong></td><td>小型仪器、多配件设备</td><td>利于堆码和分区，需检查设备重心与箱体强度</td></tr>
+            <tr><td><strong>周转结构＋外运输箱</strong></td><td>企业交付、返修与重复运输</td><td>考虑重复开合、标签更新和配件盘点</td></tr>
+          </tbody>
+        </table>
+
+        <h2 id="material">材料选择要对应明确风险</h2>
+        <p>瓦楞纸板适合抗压和堆码，纸浆模塑与卡纸内衬便于固定，专业防静电或防潮材料则需要依据产品敏感度选择。不要仅凭颜色或名称判断材料性能，应以供应商参数和验证结果为准。</p>
+        <ul>
+          <li><strong>冲击：</strong>重点保护连接器、显示屏、旋钮和突出部件。</li>
+          <li><strong>静电：</strong>敏感器件应使用经确认的屏蔽、防静电和接地方案。</li>
+          <li><strong>湿度：</strong>长途或长期仓储时评估防潮袋、干燥剂和湿度指示。</li>
+          <li><strong>追溯：</strong>箱号、批次、序列号和检验状态需要可替换、可扫描。</li>
+        </ul>
+
+        <h2 id="information">标签系统要支持收货、仓储和售后</h2>
+        <p>除了产品名称和型号，还应根据业务流程预留批次、数量、序列号、箱号、方向、易碎或静电警示等信息。标签位置应在码垛后仍能读取，并避免被封箱胶带覆盖。</p>
+        <ol class="steps">
+          <li><strong>列出失效风险：</strong>识别冲击、挤压、静电、湿度和部件脱落等风险。</li>
+          <li><strong>确定包装层级：</strong>区分单品防护、集合包装和运输外箱的职责。</li>
+          <li><strong>制作装配说明：</strong>明确内衬方向、配件位置、标签和封箱步骤。</li>
+          <li><strong>按真实路线验证：</strong>模拟仓储、堆码、运输、收货和返修过程。</li>
+        </ol>
+
+        <h2 id="ai-demo">AI 包装设计流程演示</h2>
+        <p>AI 可以帮助比较工业、科技或极简风格的外观方向，但型号表、警示图标、标签区域和内衬工程图必须使用真实数据。对工业客户而言，清晰与可追溯通常比复杂装饰更重要。</p>
+        <div class="demo">
+          <video controls preload="metadata" poster="../assets/electronics.webp">
+            <source src="../assets/ai-packaging-demo.mp4" type="video/mp4">
+            您的浏览器暂不支持视频播放。
+          </video>
+          <p>视频时长 1 分钟，来自印个泡泡平台实际操作录屏的网页优化版本；画面用于说明操作流程。</p>
         </div>
-        <p style="text-align:center; color:var(--text-muted); margin-top:24px; font-size:0.95em;">
-            以上盒型均支持定制尺寸、材质、印刷工艺。不确定选哪种？
-            <a href="https://bubbpackage.com/product" style="color:var(--green);font-weight:600;">直接上传需求</a>，AI 自动匹配推荐。
-        </p>
+
+        <h2 id="small-batch">先用工程样验证，再决定印刷版本</h2>
+        <p>小批量项目可先用白样或低成本数码样确认装配、标签和运输，结构通过后再完善品牌视觉。这样能避免因为一个接口或内衬位置错误而整批返工。</p>
+
+        <section class="faq-section" aria-labelledby="faq-title">
+          <h2 id="faq-title">常见问题</h2>
+          <div class="faq-item"><h3>普通纸盒能代替防静电包装吗？</h3><p>不能直接等同。纸盒可提供外部保护，但静电敏感器件需要根据产品要求使用经过确认的防静电或屏蔽材料。</p></div>
+          <div class="faq-item"><h3>运输箱应该标多少警示信息？</h3><p>只保留与实际搬运和风险有关的信息，例如方向、易碎、防潮或静电警示；过多无关图标会降低真正警示的可见性。</p></div>
+          <div class="faq-item"><h3>怎样让多配件设备更容易盘点？</h3><p>为每个配件设置固定仓位，并在装配图或清单中对应编号；必要时让空位一眼可见，便于出货和退货检查。</p></div>
+          <div class="faq-item"><h3>什么时候需要做重复运输测试？</h3><p>设备可能返修、租赁、展会往返或企业内部周转时，应验证包装在多次开合和运输后的强度与固定效果。</p></div>
+        </section>
+
+        <section class="article-cta" aria-labelledby="cta-title">
+          <h2 id="cta-title">准备梳理电子产品的防护层级？</h2>
+          <p>整理产品敏感点、装箱清单、运输路线、重量和目标数量后，可以进入产品中心继续选择包装。</p>
+          <a href="https://bubbpackage.com/product">进入包装产品中心 →</a>
+        </section>
+      </article>
+
+      <aside class="sidebar" aria-label="本文目录">
+        <strong>本文目录</strong>
+        <a href="#first">需求判断</a>
+        <a href="#options">方案选择</a>
+        <a href="#material">材料与结构</a>
+        <a href="#information">信息与验证</a>
+        <a href="#ai-demo">AI 设计演示</a>
+        <a href="#small-batch">小批量方法</a>
+        <a href="#faq-title">常见问题</a>
+      </aside>
     </div>
 
-    <!-- Process -->
-    <div class="section" id="process">
-        <div class="section-label">Process</div>
-        <div class="section-title">定制流程：从需求到交付，仅需 5 步</div>
-        <div class="process-list">
-            <div class="process-step">
-                <div class="step-num">1</div>
-                <div class="step-content">
-                    <h3>在线选择 / 提交需求</h3>
-                    <p>按行业或盒型筛选，或直接上传设计稿和需求描述，无需填复杂的表格。</p>
-                </div>
-            </div>
-            <div class="process-step">
-                <div class="step-num">2</div>
-                <div class="step-content">
-                    <h3>AI 精准报价</h3>
-                    <p>输入尺寸、材质、数量，AI 引擎 3 秒给出精准报价。价格透明，无隐性收费。</p>
-                </div>
-            </div>
-            <div class="process-step">
-                <div class="step-num">3</div>
-                <div class="step-content">
-                    <h3>数码打样确认</h3>
-                    <p>快速出样，确认盒型结构、印刷效果、材质手感。不满意？免费调整直到满意。</p>
-                </div>
-            </div>
-            <div class="process-step">
-                <div class="step-num">4</div>
-                <div class="step-content">
-                    <h3>工业级数码印刷</h3>
-                    <p>色彩精准，支持可变数据印刷。无需制版，小批量成本更低，大货价一样有优势。</p>
-                </div>
-            </div>
-            <div class="process-step">
-                <div class="step-num">5</div>
-                <div class="step-content">
-                    <h3>三道品控 + 极速发货</h3>
-                    <p>结构检查 → 印刷对色 → 功能测试。48 小时发货。</p>
-                </div>
-            </div>
-        </div>
+    <section class="related">
+      <h2>继续了解相关包装</h2>
+      <div class="related-grid">
+        <a href="/3c-digital/">3C 数码包装<span>主机固定、配件分区与零售展示。</span></a>
+        <a href="/carton-customization/">纸箱包装<span>瓦楞、箱型与运输测试。</span></a>
+        <a href="/ecommerce-retail/">电商零售包装<span>快递保护、开箱与退换货。</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong><a href="https://bubbpackage.com/">印个泡泡（bubbpackage.com）</a></strong>
+      <span>小批量包装定制 SaaS 平台</span>
     </div>
-
-    <!-- FAQ -->
-    <div class="section">
-        <div class="section-label">FAQ</div>
-        <div class="section-title">关于电子产品包装定制方案，常见问题</div>
-        <div class="faq-list">
-            <div class="faq-item">
-                <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">Q: 真的 1 个也能做吗？价格会不会很贵？</button>
-                <div class="faq-a"><p>可以。数码印刷无需制版，从 1 个到 10000 个按需生产。小批量单价确实比大批量略高，但比传统方案（开版费 + 500 起订）的总成本低得多。打样试错、小批量测款尤其划算。</p></div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">Q: 能印自己的 LOGO 吗？支持哪些工艺？</button>
-                <div class="faq-a"><p>完全支持。CMYK 四色、专色印刷、烫金/烫银、UV 上光、激凸/压凹、覆膜等工艺全覆盖。数码印刷让定制毫无门槛。</p></div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">Q: 从下单到收货要多久？</button>
-                <div class="faq-a"><p>常备基材订单 48 小时发货，复杂工艺 3-5 天。深圳发货次日可达珠三角，其他地区 2-3 天。</p></div>
-            </div>
-            <div class="faq-item">
-                <button class="faq-q" onclick="this.parentElement.classList.toggle('open')">Q: 不满意怎么办？能退换吗？</button>
-                <div class="faq-a"><p>质量问题免费重做。尺寸或设计调整，沟通确认后免费修改打样。提供京东式购物体验——7 天无理由退换。18 年老兵做事，以信誉为本。</p></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Final CTA -->
-    <div class="cta-banner">
-        <h3>准备好定制你的电子产品包装了吗？</h3>
-        <p>3 秒 AI 报价 · 1 个起订 · 48 小时交付 · 100% 可回收</p>
-        <a href="https://bubbpackage.com/product" class="cta-btn">开始定制 →</a>
-    </div>
-</div>
-
-<div class="related-guides" style="margin:2rem 0;padding:1.5rem;background:#f8faf8;border-radius:8px;border-left:3px solid #4A7D57;">
-  <p style="font-weight:600;margin-bottom:0.75rem;color:#365C40;">📖 相关包装指南</p>
-  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:0.5rem 1.5rem;">
-    <li><a href="/3c-digital/" style="color:#4A7D57;text-decoration:none;font-size:0.95em;">3C 数码包装 →</a></li>
-    <li><a href="/ecommerce-retail/" style="color:#4A7D57;text-decoration:none;font-size:0.95em;">电商零售包装 →</a></li>
-    <li><a href="/carton-customization/" style="color:#4A7D57;text-decoration:none;font-size:0.95em;">纸箱运输包装 →</a></li>
-  </ul>
-</div>
-
-<!-- Footer -->
-<div class="footer">
-    <p>&copy; 2026 <a href="https://bubbpackage.com">印个泡泡 bubbpackage.com</a> — 深圳市界图科技有限公司</p>
-    <p style="margin-top:4px;">包装退后，产品上前</p>
-</div>
+    <a href="/">返回全部包装指南 →</a>
+  </footer>
 </body>
 </html>
