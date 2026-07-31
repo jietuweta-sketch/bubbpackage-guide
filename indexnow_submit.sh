@@ -8,7 +8,7 @@ KEY_FILE="70ab5436820143a9a24d6afb3580ee18.txt"
 KEY=$(tr -d '\r\n' < "$KEY_FILE")
 KEY_LOCATION="https://${HOST}/${KEY_FILE}"
 
-mapfile -t URLS < <(sed -n 's:.*<loc>\(https://guide\.bubbpackage\.com[^<]*\)</loc>.*:\1:p' sitemap.xml)
+mapfile -t URLS < <(sed -n 's|.*<loc>\(https://guide\.bubbpackage\.com[^<]*\)</loc>.*|\1|p' sitemap.xml)
 
 if [ "${#URLS[@]}" -eq 0 ]; then
   echo "No guide URLs found in sitemap.xml" >&2
