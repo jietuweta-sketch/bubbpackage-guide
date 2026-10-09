@@ -1,0 +1,38 @@
+name: Publish Markdown articles
+on:
+  push:
+    branches: [main]
+    paths: ["articles/**", "scripts/build_articles.py", "scripts/article-requirements.txt", ".github/workflows/publish-articles.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: publish-articles
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r scripts/article-requirements.txt
+      - run: python scripts/build_articles.py build
+      - run: node scripts/validate_guides.mjs
+      - name: Save generated pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news sitemap.xml
+          if ! git diff --cached --quiet; then
+            git commit -m "Generate article pages"
+            git push origin main
+          fi
+      - name: Publish with existing GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/"$GITHUB_REPOSITORY"/pages/builds
