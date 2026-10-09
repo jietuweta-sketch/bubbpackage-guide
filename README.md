@@ -30,3 +30,5 @@
 ## 自动发布文章
 
 把 Markdown 文件放进 articles/ 并推送 GitHub，即可自动更新正文、文章列表和站点地图。模板和说明见 [articles/README.md](articles/README.md)。
+
+日常维护目录：`E:\Codex\GitHub\bubbpackage-guide`。每日写作发布规则见 [ARTICLE_WORKFLOW.md](ARTICLE_WORKFLOW.md)。正文支持图文、Markdown 表格、引用、列表与自由结构。

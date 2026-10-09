@@ -3,3 +3,6 @@ key.json
 
 __pycache__/
 *.pyc
+
+.venv/
+.automation/
