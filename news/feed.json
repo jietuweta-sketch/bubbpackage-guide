@@ -1,5 +1,53 @@
 [
   {
+    "slug": "retail-two-dimensional-barcodes-20261010",
+    "title": "行业解读：二维条码推进中，包装上的旧条码要立刻撤掉吗？",
+    "category": "行业动态",
+    "date": "2026-10-10",
+    "summary": "依据GS1公开说明，理解二维条码的渐进迁移与包装信息规划。",
+    "cover": ""
+  },
+  {
+    "slug": "print-finishing-comparison-20261010",
+    "title": "工艺对比表：烫印、压凹凸与局部上光，怎么按目标选？",
+    "category": "知识文章",
+    "date": "2026-10-10",
+    "summary": "先区分视觉、触感和使用要求，再与生产方确认材料及图案是否适合。",
+    "cover": ""
+  },
+  {
+    "slug": "pouch-selection-questions-20261010",
+    "title": "平台选型问答：自立袋与八边封袋先看什么？",
+    "category": "公司新闻",
+    "date": "2026-10-10",
+    "summary": "从摆放、装入和封口需求出发，认识平台软包装选型中的两个袋型。",
+    "cover": ""
+  },
+  {
+    "slug": "eu-packaging-waste-data-20261010",
+    "title": "数据读图：欧盟包装废弃物中，纸和纸板占多少？",
+    "category": "行业动态",
+    "date": "2026-10-10",
+    "summary": "据Eurostat已发布的2023年数据，区分材料占比与回收率的不同含义。",
+    "cover": ""
+  },
+  {
+    "slug": "box-size-three-concepts-20261010",
+    "title": "尺寸图解：内尺寸、外尺寸与展开尺寸，别混着填",
+    "category": "知识文章",
+    "date": "2026-10-10",
+    "summary": "三个尺寸口径解决不同问题，询价和图稿准备时应分别确认。",
+    "cover": ""
+  },
+  {
+    "slug": "article-workflow-service-20261010",
+    "title": "平台服务说明：一篇文章从整理到上线要经过哪些步骤",
+    "category": "公司新闻",
+    "date": "2026-10-10",
+    "summary": "统一发布信息、保留正文风格，了解指南站如何整理和发布文章。",
+    "cover": ""
+  },
+  {
     "slug": "waste-prevention-packaging-planning",
     "title": "包装行业观察：把废弃物预防纳入方案规划",
     "category": "行业动态",
