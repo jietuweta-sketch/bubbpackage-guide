@@ -9,6 +9,7 @@
 - [印个泡泡包装定制平台](https://bubbpackage.com/)
 - [在线选择和定制包装](https://bubbpackage.com/product)
 - [包装定制行业指南](https://guide.bubbpackage.com/)
+- [Edge 完整印刷稿下载助手隐私说明](https://guide.bubbpackage.com/extension/privacy/)
 - [小批量包装定制完整指南](https://guide.bubbpackage.com/xiaopiliang-baozhuang-dingzhi/)
 
 ## 行业指南
