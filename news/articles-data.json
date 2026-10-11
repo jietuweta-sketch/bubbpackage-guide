@@ -1,5 +1,53 @@
 [
   {
+    "slug": "product-url-and-revision-record-20261011",
+    "title": "平台使用清单：选中盒型后，怎样留下可复核的记录？",
+    "category": "公司新闻",
+    "date": "2026-10-11",
+    "summary": "把产品网址、需求版本和待确认事项放在一起，减少再次沟通时的混淆。",
+    "cover": ""
+  },
+  {
+    "slug": "product-photos-reading-20261011",
+    "title": "平台服务说明：看包装场景图时，哪些信息还要核对？",
+    "category": "公司新闻",
+    "date": "2026-10-11",
+    "summary": "场景图片帮助理解外观和用途，实际盒型与下单条件仍需逐项核对。",
+    "cover": ""
+  },
+  {
+    "slug": "pdf-font-handoff-20261011",
+    "title": "文件交接问答：导出PDF后，包装文字为什么还要检查？",
+    "category": "知识文章",
+    "date": "2026-10-11",
+    "summary": "字体嵌入帮助保持字形，但导出后的正文、符号和小字仍需核对。",
+    "cover": ""
+  },
+  {
+    "slug": "insert-sample-check-20261011",
+    "title": "样品观察笔记：礼盒内托不是“卡得越紧越好”",
+    "category": "知识文章",
+    "date": "2026-10-11",
+    "summary": "从装入、取出和运输方式看内托，记录实际产品与包装组合的表现。",
+    "cover": ""
+  },
+  {
+    "slug": "fsc-label-meaning-20261011",
+    "title": "行业标签释义：FSC 100%、MIX与RECYCLED有什么区别？",
+    "category": "行业动态",
+    "date": "2026-10-11",
+    "summary": "依据FSC官方说明区分三个标签，不把原料来源标识当成包装性能证明。",
+    "cover": ""
+  },
+  {
+    "slug": "eprc-paper-recycling-2025-20261011",
+    "title": "新报告读图：欧洲2025年纸回收率76.4%，怎样理解？",
+    "category": "行业动态",
+    "date": "2026-10-11",
+    "summary": "解读10月1日发布的纸回收报告，区分地区总体数据与单件包装表现。",
+    "cover": ""
+  },
+  {
     "slug": "retail-two-dimensional-barcodes-20261010",
     "title": "行业解读：二维条码推进中，包装上的旧条码要立刻撤掉吗？",
     "category": "行业动态",
