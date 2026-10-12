@@ -1,5 +1,53 @@
 [
   {
+    "slug": "sorting-label-information-20261012",
+    "title": "行业观察：包装分类标签，先解决读者看不懂的问题",
+    "category": "行业动态",
+    "date": "2026-10-12",
+    "summary": "依据欧盟理事会公开资料，讨论材料信息和分类提示的阅读逻辑。",
+    "cover": ""
+  },
+  {
+    "slug": "screen-and-print-color-20261012",
+    "title": "颜色问答：屏幕上的浅绿，为什么不能直接当印样标准？",
+    "category": "知识文章",
+    "date": "2026-10-12",
+    "summary": "软打样是预览方法，实际纸张、输出条件和确认样仍需一起核对。",
+    "cover": ""
+  },
+  {
+    "slug": "reusable-packaging-return-loop-20261012",
+    "title": "研究解读：重复使用包装，需要的不只是一个耐用容器",
+    "category": "行业动态",
+    "date": "2026-10-12",
+    "summary": "从返回、整理和再次使用的路径，理解重复使用包装的系统条件。",
+    "cover": ""
+  },
+  {
+    "slug": "quotation-change-check-20261012",
+    "title": "平台使用说明：报价后改了尺寸或工艺，哪些条件要再核对？",
+    "category": "公司新闻",
+    "date": "2026-10-12",
+    "summary": "将报价与当时的参数一起记录，避免拿不同方案直接比较。",
+    "cover": ""
+  },
+  {
+    "slug": "paper-grammage-and-caliper-20261012",
+    "title": "材料对照表：纸张克重与厚度，是两项不同的参数",
+    "category": "知识文章",
+    "date": "2026-10-12",
+    "summary": "克重描述单位面积质量，厚度描述纸张尺寸，不能把两种单位混写。",
+    "cover": ""
+  },
+  {
+    "slug": "carry-box-use-20261012",
+    "title": "平台选型说明：瓦楞手提盒，先确认提拿方式再看外观",
+    "category": "公司新闻",
+    "date": "2026-10-12",
+    "summary": "从提拿、装入和运输三个使用环节理解瓦楞手提盒的选型。",
+    "cover": ""
+  },
+  {
     "slug": "product-url-and-revision-record-20261011",
     "title": "平台使用清单：选中盒型后，怎样留下可复核的记录？",
     "category": "公司新闻",
