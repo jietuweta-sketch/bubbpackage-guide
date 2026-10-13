@@ -1,5 +1,53 @@
 [
   {
+    "slug": "image-pixels-and-print-size-20261013",
+    "title": "计算示例：同一张图放大后，有效分辨率怎样变化？",
+    "category": "知识文章",
+    "date": "2026-10-13",
+    "summary": "区分像素数量与印刷尺寸，用示例计算理解有效PPI。",
+    "cover": ""
+  },
+  {
+    "slug": "hanging-carton-selection-20261013",
+    "title": "平台选型清单：吊口盒除了能挂，还要确认什么？",
+    "category": "公司新闻",
+    "date": "2026-10-13",
+    "summary": "从挂放、取用与封底三个环节整理吊口盒的实际需求。",
+    "cover": ""
+  },
+  {
+    "slug": "gtin-and-packaging-revision-20261013",
+    "title": "行业实践：包装改版时，图稿版本与商品编码分别核对",
+    "category": "行业动态",
+    "date": "2026-10-13",
+    "summary": "依据GS1官方说明，区分商品身份识别和设计文件更新。",
+    "cover": ""
+  },
+  {
+    "slug": "drawer-box-category-choice-20261013",
+    "title": "平台选型对照：同样叫抽屉盒，卡纸与精装怎么分？",
+    "category": "公司新闻",
+    "date": "2026-10-13",
+    "summary": "先核对品类和结构要求，再把抽拉外观与材料方案放在一起讨论。",
+    "cover": ""
+  },
+  {
+    "slug": "cepi-test-method-v3-20261013",
+    "title": "方法解读：纸包装回收测试，为什么要说明工艺范围？",
+    "category": "行业动态",
+    "date": "2026-10-13",
+    "summary": "以Cepi第三版实验室方法为例，区分测试参数、评价与宣传结论。",
+    "cover": ""
+  },
+  {
+    "slug": "barcode-quiet-zone-layout-20261013",
+    "title": "排版图解：条码旁的空白，为什么不能拿来塞文案？",
+    "category": "知识文章",
+    "date": "2026-10-13",
+    "summary": "留白、对比度和符号位置共同影响识读，具体要求需按应用确认。",
+    "cover": ""
+  },
+  {
     "slug": "sorting-label-information-20261012",
     "title": "行业观察：包装分类标签，先解决读者看不懂的问题",
     "category": "行业动态",
