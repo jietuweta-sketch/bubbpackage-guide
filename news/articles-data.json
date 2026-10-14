@@ -1,5 +1,53 @@
 [
   {
+    "slug": "trim-bleed-content-position-20261014",
+    "title": "版面图解：裁切边界、背景延伸与重要文字位置怎么区分？",
+    "category": "知识文章",
+    "date": "2026-10-14",
+    "summary": "三个位置解决不同问题，包装图稿仍应按实际刀线和生产要求确认。",
+    "cover": ""
+  },
+  {
+    "slug": "spot-process-color-choice-20261014",
+    "title": "印刷概念对照：专色与CMYK四色，不能只按颜色名字区分",
+    "category": "知识文章",
+    "date": "2026-10-14",
+    "summary": "了解色彩方式与输出方案的关系，避免把屏幕色值当作实际专色墨。",
+    "cover": ""
+  },
+  {
+    "slug": "paper-sleeve-role-20261014",
+    "title": "平台场景说明：卡纸封套，可以承担哪些展示任务？",
+    "category": "公司新闻",
+    "date": "2026-10-14",
+    "summary": "把封套展示、内部固定和运输保护分别讨论，避免混淆用途。",
+    "cover": ""
+  },
+  {
+    "slug": "ista-test-purpose-selection-20261014",
+    "title": "方法观察：包装运输测试，先说清要回答哪个问题",
+    "category": "行业动态",
+    "date": "2026-10-14",
+    "summary": "区分设计筛选与运输环境模拟，不把任何一次测试都当成通用结论。",
+    "cover": ""
+  },
+  {
+    "slug": "flat-pouch-seal-choice-20261014",
+    "title": "平台袋型对照：三边封袋与背封袋，先看封边位置",
+    "category": "公司新闻",
+    "date": "2026-10-14",
+    "summary": "从封边、开口与图稿区域理解两个软包装选型入口。",
+    "cover": ""
+  },
+  {
+    "slug": "compostable-material-terms-20261014",
+    "title": "研究问答：生物基、可降解与可堆肥，是同一个意思吗？",
+    "category": "行业动态",
+    "date": "2026-10-14",
+    "summary": "依据欧洲环境署资料，区分原料来源与指定条件下的处理表现。",
+    "cover": ""
+  },
+  {
     "slug": "image-pixels-and-print-size-20261013",
     "title": "计算示例：同一张图放大后，有效分辨率怎样变化？",
     "category": "知识文章",
