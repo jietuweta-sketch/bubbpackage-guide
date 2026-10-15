@@ -1,5 +1,53 @@
 [
   {
+    "slug": "packaging-life-cycle-comparison-20261015",
+    "title": "方法观察：比较包装环境表现，为什么不能只看材料用量？",
+    "category": "行业动态",
+    "date": "2026-10-15",
+    "summary": "依据欧盟委员会公开说明，区分单个参数与完整生命周期评价。",
+    "cover": ""
+  },
+  {
+    "slug": "multi-artwork-quantity-allocation-20261015",
+    "title": "数量计算示例：四款图案共300份，怎样避免重复计算？",
+    "category": "知识文章",
+    "date": "2026-10-15",
+    "summary": "把总数量、各版本数量与追加需求分开记录，不把版本数当成数量。",
+    "cover": ""
+  },
+  {
+    "slug": "flat-glued-box-unpacking-check-20261015",
+    "title": "平台使用清单：平粘盒的拆封方式，确认时怎样说清楚？",
+    "category": "公司新闻",
+    "date": "2026-10-15",
+    "summary": "把打开入口、需要保留的部分与拆封后的用途分别列出。",
+    "cover": ""
+  },
+  {
+    "slug": "cut-crease-line-handoff-20261015",
+    "title": "结构文件图解：裁线与压线，为什么不能只用颜色沟通？",
+    "category": "知识文章",
+    "date": "2026-10-15",
+    "summary": "区分线条用途、显示样式与实际输出约定，避免仅凭截图判断。",
+    "cover": ""
+  },
+  {
+    "slug": "cepi-decarbonisation-outlook-20261015",
+    "title": "近期报告解读：欧洲纸业减排展望关注哪些条件？",
+    "category": "行业动态",
+    "date": "2026-10-15",
+    "summary": "据9月30日发布资料，讨论能源、效率与生产设施转型的关联。",
+    "cover": ""
+  },
+  {
+    "slug": "book-style-box-opening-20261015",
+    "title": "平台礼盒说明：翻盖书型盒，先把开合动作想清楚",
+    "category": "公司新闻",
+    "date": "2026-10-15",
+    "summary": "围绕打开、取物与再次闭合整理礼盒需求，不只比较外观。",
+    "cover": ""
+  },
+  {
     "slug": "trim-bleed-content-position-20261014",
     "title": "版面图解：裁切边界、背景延伸与重要文字位置怎么区分？",
     "category": "知识文章",
