@@ -1,5 +1,53 @@
 [
   {
+    "slug": "white-overprint-check-20261016",
+    "title": "白色叠印：屏幕看得见为什么仍要检查输出",
+    "category": "知识文章",
+    "date": "2026-10-16",
+    "summary": "检查白色对象时，要同时识别对象颜色类型、叠印属性和实际输出设置。",
+    "cover": ""
+  },
+  {
+    "slug": "recyclability-content-evidence-20261016",
+    "title": "可回收设计评价与再生含量溯源：为什么要分别找证据",
+    "category": "行业动态",
+    "date": "2026-10-16",
+    "summary": "以RecyClass公开说明为例，区分结构可回收性评价和再生塑料含量声明。",
+    "cover": ""
+  },
+  {
+    "slug": "linked-image-package-handoff-20261016",
+    "title": "链接图片交接：只发设计文件为什么可能缺图",
+    "category": "知识文章",
+    "date": "2026-10-16",
+    "summary": "以InDesign打包为例，检查链接图像是否完整随文件交付。",
+    "cover": ""
+  },
+  {
+    "slug": "lid-base-pairing-20261016",
+    "title": "天地盖礼盒：上盖与底盒怎样配套确认",
+    "category": "公司新闻",
+    "date": "2026-10-16",
+    "summary": "上盖、底盒和装入物要作为一套确认，设计场景只能帮助理解外观。",
+    "cover": ""
+  },
+  {
+    "slug": "fefco-code-specification-20261016",
+    "title": "FEFCO盒型代码：共用结构语言不等于完整采购规格",
+    "category": "行业动态",
+    "date": "2026-10-16",
+    "summary": "FEFCO代码帮助沟通结构，采购仍需补充尺寸、材料、印刷和使用要求。",
+    "cover": ""
+  },
+  {
+    "slug": "backseal-gusset-use-20261016",
+    "title": "背封风琴袋：侧面折叠不等于装量保证",
+    "category": "公司新闻",
+    "date": "2026-10-16",
+    "summary": "围绕侧褶展开、装填姿态和封口位置，澄清背封风琴袋选型时容易遗漏的问题。",
+    "cover": ""
+  },
+  {
     "slug": "packaging-life-cycle-comparison-20261015",
     "title": "方法观察：比较包装环境表现，为什么不能只看材料用量？",
     "category": "行业动态",
