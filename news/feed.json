@@ -1,5 +1,53 @@
 [
   {
+    "slug": "tuck-carton-opening-direction-20261017",
+    "title": "双插盒使用说明：先确认从哪一端打开",
+    "category": "公司新闻",
+    "date": "2026-10-17",
+    "summary": "把陈列方向、装盒方向与消费者开口分开确认。",
+    "cover": ""
+  },
+  {
+    "slug": "round-bottle-label-overlap-20261017",
+    "title": "圆瓶标签长度示例：周长之外，还要说明搭接方式",
+    "category": "知识文章",
+    "date": "2026-10-17",
+    "summary": "用圆柱假设演示周长计算，并说明真实瓶身与贴标方式的限制。",
+    "cover": ""
+  },
+  {
+    "slug": "multilingual-copy-review-20261017",
+    "title": "多语言包装校对：按字段核对，少在截图里来回找",
+    "category": "知识文章",
+    "date": "2026-10-17",
+    "summary": "把内容校对与版面校对分开，保留每种语言的确认依据。",
+    "cover": ""
+  },
+  {
+    "slug": "gs1-lookup-and-print-quality-20261017",
+    "title": "GS1编号查询：查到归属，不等于完成条码印刷验证",
+    "category": "行业动态",
+    "date": "2026-10-17",
+    "summary": "区分编号身份查询、产品信息核对和成品条码验证。",
+    "cover": ""
+  },
+  {
+    "slug": "epal-pallet-carton-layout-20261017",
+    "title": "EPAL托盘尺寸：外箱排布为什么要先算占地",
+    "category": "行业动态",
+    "date": "2026-10-17",
+    "summary": "以官方托盘尺寸和明确假设的外箱尺寸说明平面排布边界。",
+    "cover": ""
+  },
+  {
+    "slug": "auto-bottom-unfolding-check-20261017",
+    "title": "自动锁底盒：展开到位后，再确认装入动作",
+    "category": "公司新闻",
+    "date": "2026-10-17",
+    "summary": "自动锁底结构仍需结合实际样品确认展开、装填和放置状态。",
+    "cover": ""
+  },
+  {
     "slug": "white-overprint-check-20261016",
     "title": "白色叠印：屏幕看得见为什么仍要检查输出",
     "category": "知识文章",
