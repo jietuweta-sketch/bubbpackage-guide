@@ -1,5 +1,53 @@
 [
   {
+    "slug": "sscc-logistic-unit-role-20261019",
+    "title": "SSCC用于什么：让物流单元与商品身份分工清楚",
+    "category": "行业动态",
+    "date": "2026-10-19",
+    "summary": "从GS1对物流单元的定义看物流标识的沟通对象。",
+    "cover": ""
+  },
+  {
+    "slug": "pefc-coc-guidance-2025-reading-20261019",
+    "title": "PEFC产销监管链指南：先分清指导文件与认证标准",
+    "category": "行业动态",
+    "date": "2026-10-19",
+    "summary": "回看2025版指南，理解参考资料与实际认证依据的区别。",
+    "cover": ""
+  },
+  {
+    "slug": "paperboard-mailer-use-20261019",
+    "title": "卡纸一体成型盒：展示包装与寄送要求分开确认",
+    "category": "公司新闻",
+    "date": "2026-10-19",
+    "summary": "一体成型外观不能替代寄送条件的确认。",
+    "cover": ""
+  },
+  {
+    "slug": "packaging-mass-accounting-20261019",
+    "title": "称重记录怎么写：产品、单套包装与寄送组合分开算",
+    "category": "知识文章",
+    "date": "2026-10-19",
+    "summary": "用明确假设演示称重口径，避免漏算或重复计入。",
+    "cover": ""
+  },
+  {
+    "slug": "manual-lock-bottom-sequence-20261019",
+    "title": "扣底盒使用问答：把折底顺序交接给装盒人员",
+    "category": "公司新闻",
+    "date": "2026-10-19",
+    "summary": "手工扣底样品的确认应包含动作和成型状态。",
+    "cover": ""
+  },
+  {
+    "slug": "batch-date-variable-area-20261019",
+    "title": "日期和批次留在哪里：先给可变信息安排位置",
+    "category": "知识文章",
+    "date": "2026-10-19",
+    "summary": "把固定图文与后续打码信息分别确认，避免量产时临时找空白。",
+    "cover": ""
+  },
+  {
     "slug": "tuck-carton-opening-direction-20261017",
     "title": "双插盒使用说明：先确认从哪一端打开",
     "category": "公司新闻",
